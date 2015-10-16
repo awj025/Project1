@@ -92,7 +92,6 @@ font-family: 'Lato', sans-serif;
 
     font-size: 4em;
     margin: 0;
-    
 }
 
 .mytitle {
@@ -100,6 +99,16 @@ font-family: 'Lato', sans-serif;
 		font-size: 2em;
 		margin-top: 0;
 		margin-bottom: 0;
+}
+
+.ProjectName {
+		color: #15154F;
+		margin-bottom: 0;
+}
+
+.SiteURL {
+		font-size: 1em;
+		margin-top: 0;
 }
 
 .banner {
