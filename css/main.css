@@ -88,24 +88,37 @@ font-family: 'Lato', sans-serif;
 
 }
 
-.NAME {
+.myname {
 
     font-size: 4em;
     margin: 0;
     
 }
 
-.TITLE {
+.mytitle {
 
 		font-size: 2em;
 		margin-top: 0;
 		margin-bottom: 0;
-		}
+}
 
+.banner {
+    font-size: 3em;
+    margin-bottom: 0;
+    color: #28398E;
+}
+    
 .h2 {
+		display: block;
 		font-size: 3em;
 		color: #28398E;
-    }
+}
+    
+.baseline {
+		margin: 10px;
+		height: 5px;
+		background-image: linear-gradient(to right, #FEC78C,#28398E,#FEC78C);
+}
 
 @media only screen and (max-width: 500px) {
 	p {
