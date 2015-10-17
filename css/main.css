@@ -1,8 +1,4 @@
-﻿!* {
-!    border: 1px solid red !important;
-!}
-
-* {
+﻿* {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     -ms-box-sizing: border-box;
@@ -24,11 +20,6 @@ font-family: 'Lato', sans-serif;
 		background-color:  #FEC78C;
 }
 
-!.row {
-!    width: 100%;
-!    margin-bottom: 20px;
-!    display: flex;
-!}
 .row {
     width: 100%;
     margin-bottom:  0px;
@@ -49,7 +40,8 @@ font-family: 'Lato', sans-serif;
 }
 
 .col-4 {
-    width: 33.33%;
+     color: #3F2407;
+     width: 33.33%;
 }
 
 .col-5 {
@@ -69,6 +61,8 @@ font-family: 'Lato', sans-serif;
 }
 
 .col-9 {
+    text-align: right;
+    color: #3F2407;
     width: 75%;
 }
 
