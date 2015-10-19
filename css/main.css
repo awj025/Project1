@@ -1,8 +1,8 @@
 ﻿* {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -ms-box-sizing: border-box;
-    -box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-box-sizing: border-box;
 }
 
 * {
@@ -10,72 +10,72 @@ font-family: 'Lato', sans-serif;
 }
 
 .grid {
-    margin: 0 auto;
-    max-width: 1200px;
-    width: 100%;
+	margin: 0 auto;
+	max-width: 1200px;
+	width: 100%;
 }
 
 .title {
-		color: #15154F;
-		background-color:  #FEC78C;
+	color: #15154f;
+	background-color:  #fec78c;
 }
 
 .row {
-    width: 100%;
-    margin-bottom:  0px;
-    display: flex;
-    background-color:  #FEC78C;
+	width: 100%;
+	margin-bottom:  0px;
+	display: flex;
+	background-color:  #fec78c;
 }
 
 .col-1 {
-    width: 8.33%;
+	width: 8.33%;
 }
 
 .col-2 {
-    width: 16.66%;
+	width: 16.66%;
 }
 
 .col-3 {
-    width: 25%;
+	width: 25%;
 }
 
 .col-4 {
-     color: #3F2407;
-     width: 33.33%;
+	color: #3f2407;
+	width: 33.33%;
 }
 
 .col-5 {
-    width: 41.66%;
+	width: 41.66%;
 }
 
 .col-6 {
-    width: 50%;
+	width: 50%;
 }
 
 .col-7 {
-    width: 58.33%;
+	width: 58.33%;
 }
 
 .col-8 {
-    width: 66.66%;
+	width: 66.66%;
 }
 
 .col-9 {
-    text-align: right;
-    color: #3F2407;
-    width: 75%;
+	text-align: right;
+	color: #3f2407;
+	width: 75%;
 }
 
 .col-10 {
-    width: 83.33%;
+	width: 83.33%;
 }
 
 .col-11 {
-    width: 91.66%;
+	width: 91.66%;
 }
 
 .col-12 {
-    width: 100%;
+	width: 100%;
 }
 
 .image {
@@ -83,47 +83,41 @@ font-family: 'Lato', sans-serif;
 }
 
 .myname {
-
-    font-size: 4em;
-    margin: 0;
+	font-size: 4em;
+	margin: 0;
 }
 
 .mytitle {
 
-		font-size: 2em;
-		margin-top: 0;
-		margin-bottom: 0;
+	font-size: 2em;
+	margin-top: 0;
+	margin-bottom: 0;
 }
 
 .ProjectName {
-		color: #15154F;
-		margin-bottom: 0;
+	color: #15154f;
+	margin-bottom: 0;
 }
 
 .SiteURL {
-		font-size: 1em;
-		margin-top: 0;
+	font-size: 1em;
+	margin-top: 0;
 }
 
 .banner {
-    font-size: 3em;
-    margin-bottom: 0;
-    color: #28398E;
+	font-size: 3em;
+	margin-bottom: 0;
+	color: #28398e;
 }
-    
+	
 .h2 {
-		display: block;
-		font-size: 3em;
-		color: #28398E;
+	display: block;
+	font-size: 3em;
+	color: #28398e;
 }
-    
+	
 .baseline {
-		margin: 10px;
-		height: 5px;
-		background-image: linear-gradient(to right, #FEC78C,#28398E,#FEC78C);
+	margin: 10px;
+	height: 5px;
+	background-image: linear-gradient(to right, #fec78c,#28398e,#fec78c);
 }
-
-@media only screen and (max-width: 500px) {
-	p {
-		display: none;
-		}
