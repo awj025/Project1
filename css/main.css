@@ -17,7 +17,7 @@ font-family: 'Lato', sans-serif;
 
 .title {
 	color: #15154f;
-	background-color:  #fec78c;
+	background-color:  #f9c996;
 }
 
 .row {
@@ -25,7 +25,7 @@ font-family: 'Lato', sans-serif;
 	margin-bottom:  0px;
 	display: flex;
 	flex-wrap: wrap;
-	background-color:  #fec78c;
+	background-color:  #f9c996;
 }
 
 .col-1 {
