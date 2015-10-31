@@ -19,11 +19,13 @@
 }
 
 .row {
-	width: 100vw;
+	width: 98vw;
 	margin-bottom:  0px;
+	margin-right: 5px;
+	margin-left: 5px;
 	display: flex;
 	flex-wrap: wrap;
-	background-color:  #f9c996;
+	background-color:  #dcb286;
 }
 
 .col-1 {
@@ -95,14 +97,13 @@
 
 	max-width: 100%;
 	max-height: 100%;
-	width: calc((100% - 10px) / 3);
 	margin-right: 10px;
 }
 
 .labpic {
-	max-width: 100%;
+	max-width: calc(100% - 10px);
+	min-width: 20vw;
 	max-height: 100%;
-	width: calc (25% - 10px);
 	
 }
 
@@ -127,8 +128,10 @@
 	width: calc (83.33% - 10px);
 }
 
-.project-line {
-	color: #3f2407;
+.normal-baseline {
+	margin: 2px;
+	height: 8px;
+	color: #28398e;
 }
 
 .project-name {
@@ -139,7 +142,7 @@
 
 .project-url {
 	font-size: 1em;
-	width: calc((100% - 10px) / 3);
+	width: calc(100vw - 10px);
 	margin-top: 0;
 }
 
@@ -155,8 +158,8 @@
 	color: #28398e;
 }
 	
-.baseline {
-	margin: 10px;
-	height: 5px;
-	background-image: linear-gradient(to right, #fec78c,#28398e,#fec78c);
+.big-baseline {
+	margin: 2px;	
+	height: 15px;
+	background-image: linear-gradient(to right, #dcb286,#28398e,#dcb286);
 }
