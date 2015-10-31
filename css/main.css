@@ -122,7 +122,7 @@
 .source {
 	max-width: 100%;
 	max-height: 100%;
-	width: calc (83.33% - 10px);
+	width: 83vw;
 }
 
 .normal-baseline {
@@ -139,7 +139,7 @@
 
 .project-url {
 	font-size: 1em;
-	width: calc(100vw - 10px);
+	width: 100vw;
 	margin-top: 0;
 }
 
